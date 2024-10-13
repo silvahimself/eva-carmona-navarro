@@ -91,7 +91,7 @@ export default function CeramicsArtistWebsite() {
       {/* Header */}
       <header className={`${isDarkMode ? 'bg-gray-800' : 'bg-white'} shadow-sm`}>
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <div className="text-2xl font-serif font-bold">{translate('Eva Carmona Navarro', 'Artesanía Cerámica')}</div>
+          <div className="text-2xl font-serif font-bold">{'Eva Carmona Navarro'}</div>
           <nav className="hidden md:flex space-x-6">
             <button onClick={() => navigateTo('home')} className="hover:text-gray-600">{translate('Home', 'Inicio')}</button>
             <button onClick={() => navigateTo('portfolio')} className="hover:text-gray-600">{translate('Portfolio', 'Portafolio')}</button>
